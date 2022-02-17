@@ -1,0 +1,36 @@
+@media (max-width:992px) {
+    .Banner_Body_Image{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .Banner_Section h1 {
+        font-size: 40px;
+    }
+    .Postion_Component {
+      
+        padding-top: 35px;
+    }
+    .conversation {
+        padding-top: 35px;
+       
+    }
+}
+
+@media (max-width:767px) {
+    .Banner_Section h1
+        {
+            font-size: 25px;
+        }
+
+        .Banner_Sub_Heading h2{
+            font-size: 18px;
+        }
+
+        .Profile_Image_Section{
+            padding-top: 10px;
+        }
+        .Banner_Body_Image {
+            padding-top: 10px;
+        }
+    }

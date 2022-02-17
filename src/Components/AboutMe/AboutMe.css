@@ -1,0 +1,27 @@
+@font-face
+{
+    font-family: 'EurostileBold';
+    src: url('../../fonts/EurostileBold.ttf') ;
+}
+
+.AboutMe_Section{
+    background-color: #EC295B;
+    color: white;
+}
+.About_Heading{
+    background-color: #EC295B;
+    color: white;
+    padding-top: 70px;
+    font-family: 'EurostileBold';
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.About_Para{
+    background-color: #EC295B;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    font-size: 20px;
+}

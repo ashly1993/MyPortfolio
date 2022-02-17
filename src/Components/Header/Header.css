@@ -1,0 +1,69 @@
+.header-section {
+    width: 100%;
+}
+.image_sec{
+    width: 50px;
+    height: 50px;
+}
+
+.left-side {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    color: #EC295B;
+}
+
+.left-side img {
+    padding-left: 20px;
+}
+
+.End-Section {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+.button_hello:hover {
+    background-color: #EC295B;
+    color: white;
+}
+
+.button_hello {
+    /* border-color: #EC295B; */
+    border-radius: 25px;
+    padding: 10px 24px;
+    color: #EC295B;
+    background-color: white;
+    font-size: 20px;
+    border :1px solid #EC295B
+}
+
+
+
+.logo_name{
+   
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+
+/* @keyframes example { 
+    0%   {color: #EC295B; left:0px; top:0px;}
+    25%  {color: #EC295B; left:200px; top:0px;}
+    50%  {color: #EC295B; left:200px; top:200px;}
+    75%  {color: #EC295B; left:0px; top:200px;}
+    100% {color: #EC295B; left:0px; top:0px;}
+  }
+*/
+.logo_name {
+    transform: translate(-50%, -50%);
+    animation-name: wave;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke-width: 3px;
+    /* -webkit-text-stroke-color: black; */
+
+}
+ 

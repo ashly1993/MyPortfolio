@@ -1,0 +1,44 @@
+
+@font-face
+{
+    font-family: 'EurostileBold';
+    src: url('../../fonts/EurostileBold.ttf') ;
+}
+@font-face
+{
+    font-family: 'OpenSansCondensed-LightItalic';
+    src: url('../../fonts/OpenSansCondensed-LightItalic.ttf') ;
+}
+
+.Banner_Section{
+    padding-top: 60px;
+    font-family: 'EurostileBold';
+    font-weight: 800;
+}
+.Banner_Section h1{
+    font-size: 50px;
+}
+.Banner_Sub_Heading{
+    
+    font-family: 'OpenSansCondensed-LightItalic';
+    font-weight: 300;
+    
+    
+}
+.Banner_Body_Image{
+    padding-top: 60px;
+    width: 750px;
+    margin: 0 auto;
+    
+}
+
+.Banner_Body_Image img{
+    width: 100%;
+}
+.Profile_Image_Section{
+    padding-top: 30px;
+}
+.Banner_Heading{
+    padding-left: 20px;
+    padding-right: 20px;
+}

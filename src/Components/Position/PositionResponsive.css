@@ -1,0 +1,63 @@
+@media (max-width:1024px) 
+{
+    .pos_table td{
+        width: 48%;
+    }   
+}
+
+
+
+@media (max-width:767px) 
+{
+    .desc-text {
+         width: 100%;
+    }
+    .title {   
+        width: 100%;
+        font-size: 17px;
+    }
+    .sub_dec_name { 
+        width: 100%;   
+    }
+    .sub_dec{
+        width: 100%;
+    }
+    .tools_title {
+        width: 100%;
+        font-size: 13px;
+    }
+    .tools_desc {
+        width: 100%;
+    }
+    .desc-text {
+       
+        min-height: 145px;
+    }
+    .description {
+        width: 100%;
+    }
+    .Position_Section {   
+        width: 100%;
+    }
+    .sub_section {  
+        width: 100%;
+    }
+    .sub_dec { 
+        font-size: 12px;
+    }
+    .sub_dec_name {
+        font-size: 14px;
+    }
+}
+
+    @media (max-width:992px)
+     {
+        .description {
+         min-height: 260px;
+        }
+        .conversation {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+    }

@@ -1,0 +1,35 @@
+@media (max-width:1024px) {
+
+    .logo_div {
+        width: 25%;
+    }
+    .phone_div {
+        width: 45%;
+    }
+}
+
+@media (max-width:992px) {
+    .left-side{
+        width: 80%;
+    }
+    .End-Section{
+        width: 20%;
+    }
+    .logo_div {
+        width: 20%;
+        
+    }
+    .logo_name{
+        font-size: 13px;
+    }
+    .phone_div {
+        width: 60%;
+    }
+    .button_hello{ 
+    padding: 7px 11px; 
+    font-size: 10px; 
+    }
+    .phone_chimp,.mail_chimp{
+        font-size: 10px;
+    }
+}

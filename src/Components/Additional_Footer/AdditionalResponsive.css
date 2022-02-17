@@ -1,0 +1,5 @@
+@media (max-width:767px){
+    .address_sec,.phone_sec,.email_sec{
+        width: 90%;
+    }
+}

@@ -1,0 +1,31 @@
+.Top_Header{
+    width: 100%;
+}
+.contact_div{
+    width: 60%;
+    padding-top: 20px;
+    float: right;
+
+}
+.phone_chimp{
+    
+    width: 25%;
+    display: inline-block;
+    text-align: end;
+}
+.mail_chimp{
+   
+    width: 35%;
+    display: inline-block;
+    text-align: end;
+}
+
+
+.faPhone,.faEnvelope{
+    color: #EC295B;
+    font-size: 15px;
+}
+.contact_div a{
+    text-decoration: none;
+    color: #EC295B;
+}

@@ -1,0 +1,18 @@
+.first_logo_section,.center_section,.end_section{
+    width: 30%;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.end_section img{
+    width: 30px;
+}
+.first_logo_section{
+    text-align: left;
+}
+.end_section{
+    text-align: right;
+}
+.inner_header{
+    border-bottom: 1px solid #DBDBDB;
+}

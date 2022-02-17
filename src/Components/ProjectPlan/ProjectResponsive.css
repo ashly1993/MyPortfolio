@@ -1,0 +1,47 @@
+@media (max-width:767px) {
+    .project_title{
+        font-size: 13px;
+    }
+    .your_name,.project_email,.project_type,.project_budget,.project_section_msg{
+        font-size: 12px;
+        width: 40%;
+    }
+    .name_follow,.project_email_follow,.project_type_follow,.project_budget_follow,.project_msg_follow{
+        width: 60%;
+    }
+    .project_row_button{
+        padding-top: 10px;
+    }
+    .project_container {
+      
+        width: 100%;
+}
+}
+
+@media (max-width:992px){
+.project_container {
+   
+    width: 100%;
+}
+
+.your_name,.project_email,.project_type,.project_budget,.project_section_msg{
+    font-size: 12px;
+    width: 20%;
+}
+.name_follow,.project_email_follow,.project_type_follow,.project_budget_follow,.project_msg_follow{
+    width: 80%;
+}
+}
+@media (max-width:1024px){
+.project_container {
+    
+    width: 100%;
+}
+.your_name,.project_email,.project_type,.project_budget,.project_section_msg{
+    font-size: 12px;
+    width: 20%;
+}
+.name_follow,.project_email_follow,.project_type_follow,.project_budget_follow,.project_msg_follow{
+    width: 80%;
+}
+}

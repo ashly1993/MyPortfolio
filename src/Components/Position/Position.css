@@ -1,0 +1,53 @@
+@font-face
+{
+    font-family: 'EurostileBold';
+    src: url('../../fonts/EurostileBold.ttf') ;
+}
+
+.title{
+    font-family: 'EurostileBold';
+    font-weight: bold;
+     font-size: 20px; 
+     
+}
+.u_list{
+    list-style: none;
+    padding-right: 30px;
+    }
+
+.Position_Section{
+    /* display: inline-block; */
+   
+    padding: 5px;
+    
+   
+}
+   
+.desc-text{
+    margin: 0 auto;
+    width: 50%;
+
+}
+.tools_title{
+    color: #EC295B;
+}
+.sub_dec_name{
+    color: #EC295B;
+}
+.sub_section{
+    padding-top: 15px;
+}
+.tools{
+    padding-top: 15px;
+    padding-bottom: 6px;
+}
+.tools_desc{
+    text-align: center;
+   
+}
+ .description{ 
+    padding-top: 6px;
+    overflow: hidden;
+    max-height: 250px;
+    
+} 

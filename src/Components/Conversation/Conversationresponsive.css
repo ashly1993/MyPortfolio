@@ -1,0 +1,22 @@
+
+@media (max-width:767px) {
+    .butondiv{
+        padding-bottom: 20px;
+    }
+    .conversation {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .conv_desc{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
+
+
+ @media (max-width:1024px){
+ .butondiv {
+    
+    padding-bottom: 15px;
+}
+ }

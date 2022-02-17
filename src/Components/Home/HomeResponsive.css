@@ -1,0 +1,21 @@
+@media (max-width:992px) {
+
+    .pos_table td {
+        vertical-align: top;
+       
+    }
+    .pos_table{
+        width: 60%;
+    }
+    .Header_Component{
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+   .Postion_Component{
+    padding-top: 30px;
+   }
+}

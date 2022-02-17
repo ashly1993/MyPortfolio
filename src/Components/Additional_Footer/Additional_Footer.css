@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family: 'EurostileBold';
+    src: url('../../fonts/EurostileBold.ttf') ;
+}
+ 
+.Additional_Footer{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #EC295B; 
+    /* border-radius: 45px; */
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'EurostileBold';
+    padding-bottom: 20px;
+   
+}
+
+.address_sec{
+    width: 30%;
+    display: inline-block;
+}
+.phone_sec{
+    width: 30%;
+    display: inline-block;
+}
+.email_sec{
+    width: 30%;
+    display: inline-block;
+}
+.faPhone,.faLocationDot,.faEnvelope{
+    color: #fff;
+    font-size: 30px;
+    
+}
