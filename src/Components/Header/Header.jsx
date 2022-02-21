@@ -1,10 +1,8 @@
 import React from 'react';
-import '../Header/Header.css';
-import '../Header/HeaderResponsive.css';
-import Logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLocationDot,faPhone,faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import './Header.css';
+import './HeaderResponsive.css';
+import Logo from '../../images/Asset 1.png';
 
 
 function Header() {
@@ -13,14 +11,14 @@ function Header() {
       <div className="left-side">
         <div className="logo_div">
           {/* <h1>A</h1> */}
-          <span className='logo_name'>ASHLY</span>
-         {/* <img src={Logo} alt="Logo" className='image_sec' />  */}
+          {/* <h2 className='logo_name'>ASHLY</h2> */}
+          <img src={Logo} alt="Logo" className='image_sec' />  
         </div>
        
         
       </div>
       <div className="End-Section">
-       <Link to="/contact"><button className="button_hello" type="button">Say Hello</button></Link> 
+         <Link to="/input_form"><button className="button_hello" type="button">Say Hello</button></Link> 
       </div>
     </div>
   );

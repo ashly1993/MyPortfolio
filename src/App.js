@@ -1,27 +1,35 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Contact from './Components/Contact/Contact';
 import Home from './Components/Home/Home';
-import ProjectPlan from './Components/ProjectPlan/ProjectPlan';
+import InputContact from "./Components/InputContact/InputContact";
+import ScrollToTop from "./ScrollToTop";
+
+
 
 
 function App() {
   return (
 
     <BrowserRouter>
+     
+     <ScrollToTop >
       <div className="App">
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="project_plan" element={<ProjectPlan />} />
+            <Route path="input_form" element={<InputContact />} /> 
           </Route>
-        </Routes>
+        </Routes>  
       </div>
-    </BrowserRouter>
-
+     
+      </ScrollToTop>
+    </BrowserRouter> 
+   
   );
 }
 
+
+
+  
 export default App;

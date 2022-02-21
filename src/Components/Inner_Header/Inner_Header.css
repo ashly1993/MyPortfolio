@@ -16,3 +16,21 @@
 .inner_header{
     border-bottom: 1px solid #DBDBDB;
 }
+.logo_name{
+    color: #EC295B;
+}
+.innerlogo{
+    width: 100px;
+    height: 60px;
+}
+
+
+
+
+@media (max-width:767px) {
+    .innerlogo{
+        width: 70px;
+        height: 30px;
+    
+    } 
+}

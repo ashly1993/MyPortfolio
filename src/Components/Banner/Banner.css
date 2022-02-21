@@ -17,23 +17,17 @@
 }
 .Banner_Section h1{
     font-size: 50px;
+    color: #EC295B;
 }
 .Banner_Sub_Heading{
     
     font-family: 'OpenSansCondensed-LightItalic';
-    font-weight: 300;
-    
-    
+    font-weight: 300;   
 }
 .Banner_Body_Image{
     padding-top: 60px;
-    width: 750px;
-    margin: 0 auto;
-    
-}
-
-.Banner_Body_Image img{
-    width: 100%;
+    width: 650px;
+    margin: 0 auto;   
 }
 .Profile_Image_Section{
     padding-top: 30px;

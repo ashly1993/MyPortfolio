@@ -1,5 +1,5 @@
 .Header_Component{
-    padding-top: 20px;
+    padding-top: 35px;
 }
 .Postion_Component{
     display: flex;
@@ -31,8 +31,13 @@
 
 .pos_table td{
     border-radius: 25px;
+    vertical-align: top;
 }
 .contact_footer{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.Footer_Component{
+    padding-top: 80px;
 }

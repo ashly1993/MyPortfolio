@@ -1,22 +1,19 @@
-@media (max-width:1024px){
-    .contact_div{
-width: 70%;
-}
-}
+
 
 @media (max-width:767px){
     .contact_div{
 width: 100%;
+text-align: center;
 }
 .phone_chimp{
     
-    width: 50%;
+    width: auto;
    
     text-align: start;
 }
 .mail_chimp{
    
-    width: 50%;
+    width: auto;
     
     text-align: start;
 }

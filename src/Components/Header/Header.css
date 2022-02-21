@@ -1,10 +1,11 @@
 .header-section {
     width: 100%;
 }
-.image_sec{
-    width: 50px;
-    height: 50px;
-}
+ .image_sec{
+    width: 100px;
+    height: 60px;
+
+} 
 
 .left-side {
     display: inline-block;
@@ -35,7 +36,7 @@
     color: #EC295B;
     background-color: white;
     font-size: 20px;
-    border :1px solid #EC295B
+    border :1px solid #EC295B;
 }
 
 
@@ -44,7 +45,8 @@
    
     font-weight: bold;
     font-size: 40px;
-    padding-left: 20px;
+    margin: 0;
+    padding-left: 15px  
 }
 
 
@@ -57,12 +59,12 @@
   }
 */
 .logo_name {
-    transform: translate(-50%, -50%);
-    animation-name: wave;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+   
+    /* animation-name: wave; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ease-in-out; */
     font-family: "Righteous", cursive;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 3px; 
     /* -webkit-text-stroke-color: black; */
 
 }

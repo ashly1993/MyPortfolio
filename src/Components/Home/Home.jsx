@@ -1,14 +1,12 @@
 import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
-import Additional_Footer from '../Additional_Footer/Additional_Footer';
 import Banner from '../Banner/Banner';
-import Conversation from '../Conversation/Conversation';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import '../Home/Home.css';
-import '../Home/HomeResponsive.css';
 import Position from '../Position/Position';
 import TopHeader from '../TopHeader/TopHeader';
+import './Home.css';
+import './HomeResponsive.css';
 
 function Home() {
     return (
@@ -28,16 +26,10 @@ function Home() {
             <div className="Postion_Component">
                 <table className='pos_table'>
                 <tr>
-               <td><Position position_title = "Developer" position_desc ="Having fun bringing ideas to life in the browser is what I enjoy most about coding."  sub_description = "Languages I speak:" sub_desc_items ="HTML,JavaScript,CSS"/></td>
-               {/* <td><Position position_title = "Developer" position_desc ="Having fun bringing ideas to life in the browser is what I enjoy most about coding."  sub_description = "Languages I speak:" sub_desc_items ="HTML,JavaScript,CSS"/></td> */}
-
-                <td><Position position_title ="SEO Analyst" position_desc = "Search engine optimization is the process of improving the quality hhaak ghuhhjj" sub_description ="Things I designing:" sub_desc_items ="Title,Description,Backlinks"/></td>   
+               <td><Position position_title = "Web Developer" position_desc ="I enjoy bringing ideas to life in the browser by writing code from scratch."  sub_description = "Languages I speak:" sub_desc_items ="HTML, JavaScript, CSS" tools_title="Desiging Tools:" list_item1="Pen & Paper" list_item2="VS Code" list_item3="Github" list_item4="Git" list_item5="Bootstrap" list_item6="Figma" /></td>
+               <td><Position position_title ="SEO Analyst" position_desc = "I enjoy Link Building, Directory Submissions, Websites-Content Submissions." sub_description ="Things I Manage:" sub_desc_items ="Title, Description,Backlink" tools_title="SEO Tools:" list_item1="Ahrefs " list_item2="Moz" list_item3="AI-Content-Generator" list_item4="Plagiarism checker"  /></td>   
                 </tr>
                 </table>
-            </div>
-
-            <div className="Conversation_Component">
-                <Conversation />
             </div>
             <div className="Footer_Component">
                 <Footer />

@@ -3,38 +3,63 @@
     .pos_table td{
         width: 48%;
     }   
+
+    .description{ 
+    min-height: 177px; 
+    }
+    .title{
+        font-size: 17px;
+    }
+    .desc-text {
+        width: auto;
+    }
 }
 
 
 
-@media (max-width:767px) 
+    @media (max-width:992px)
+     {
+        .description {
+         min-height: 150px;
+        }
+        .conversation {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+    }
+
+    @media (max-width:767px) 
 {
     .desc-text {
          width: 100%;
+         min-height: 145px;
+         font-size: 12px;
     }
     .title {   
         width: 100%;
-        font-size: 17px;
+        font-size: 14px;
     }
     .sub_dec_name { 
         width: 100%;   
     }
     .sub_dec{
         width: 100%;
+        font-size: 12px;
     }
     .tools_title {
         width: 100%;
-        font-size: 13px;
+        font-size: 14px;
     }
     .tools_desc {
         width: 100%;
+        font-size: 12px;
     }
-    .desc-text {
-       
-        min-height: 145px;
-    }
+    
     .description {
-        width: 100%;
+        width: 94%;
+        min-height: 130px;
+        max-height: 100px;
     }
     .Position_Section {   
         width: 100%;
@@ -43,21 +68,16 @@
         width: 100%;
     }
     .sub_dec { 
-        font-size: 12px;
+        font-size: 14px;
     }
     .sub_dec_name {
         font-size: 14px;
     }
-}
-
-    @media (max-width:992px)
-     {
-        .description {
-         min-height: 260px;
-        }
-        .conversation {
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-
+    .pos_table {
+        width: 90% !important;
     }
+    .u_list{
+        font-size: 12px;
+    }
+   
+}

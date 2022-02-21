@@ -16,8 +16,8 @@ function Footer() {
 
         <a href="https://www.facebook.com/ashly.margaret.777/" target={'_blank'}><FontAwesomeIcon icon={faFacebookF} className="faFacebook" /></a>
         <a href="#ScocialMedia_Section"><FontAwesomeIcon icon={faTwitter} className="faTwitter" /></a>
-        <a href="#ScocialMedia_Section"><FontAwesomeIcon icon={faLinkedin} className="faLinkedin" /></a>
-        <a href="#ScocialMedia_Section"><FontAwesomeIcon icon={faInstagram} className="faInstagram" /></a>
+        <a href="https://www.linkedin.com/in/ashly-margaret-149a56168/"><FontAwesomeIcon icon={faLinkedin} className="faLinkedin" /></a>
+        <a href="#https://instagram.com/ashly_margaret"><FontAwesomeIcon icon={faInstagram} className="faInstagram" /></a>
 
 
       </div>

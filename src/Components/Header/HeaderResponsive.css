@@ -33,3 +33,12 @@
         font-size: 10px;
     }
 }
+
+
+@media (max-width:767px) {
+    .image_sec{
+        width: 70px;
+        height: 30px;
+    
+    } 
+}

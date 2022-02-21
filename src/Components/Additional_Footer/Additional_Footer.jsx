@@ -1,9 +1,8 @@
 import React from 'react';
 import '../Additional_Footer/Additional_Footer.css';
 import '../Additional_Footer/AdditionalResponsive.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import {faLocationDot,faPhone,faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLocationDot,faPhone,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 function Additional_Footer() {
   return (
@@ -26,4 +25,4 @@ function Additional_Footer() {
   );
 }
 
-export default Additional_Footer
+export default Additional_Footer;

@@ -26,16 +26,16 @@ function Position(props) {
             </div>
             <div className="tools">
                 <div className="tools_title">
-                    <h3>Design Tools:</h3>
+                    <h3>{props.tools_title}</h3>
                 </div>
                 <div className="tools_desc">
                     <ul className="u_list">
-                        <li>Balsamiq Mockups</li>
-                        <li>Balsamiq </li>
-                        <li>Invision</li>
-                        <li>Marvel</li>
-                        <li>Pen & Paper</li>
-                        <li>Sketch</li>
+                        <li>{props.list_item1}</li>
+                        <li>{props.list_item2}</li>
+                        <li>{props.list_item3}</li>
+                        <li>{props.list_item4}</li>
+                        <li>{props.list_item5}</li>
+                        <li>{props.list_item6}</li>
                     </ul>
                 </div>
             </div>

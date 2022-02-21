@@ -16,7 +16,7 @@
     }
 
 .Position_Section{
-    /* display: inline-block; */
+   
    
     padding: 5px;
     
@@ -48,6 +48,11 @@
  .description{ 
     padding-top: 6px;
     overflow: hidden;
-    max-height: 250px;
+    max-height: 190px;
+    min-height: 180px;
+
     
 } 
+
+
+

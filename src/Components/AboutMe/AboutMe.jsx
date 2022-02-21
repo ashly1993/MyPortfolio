@@ -10,7 +10,7 @@ function AboutMe() {
         <h2>Hi, I’m Ashly. Nice to meet you.</h2>
       </div>
       <div className="About_Para">
-        <p>Since beginning my journey as a SEO Expert nearly 3 years ago,I have done a lot of SEO works for domestic and international sites.Now I am completed Front End Development Area.I am quietly confident,naturally curious,and perpetually working on improving my chops one design problem at a time.</p>
+        <p>Since beginning my journey as a SEO Analyst nearly 2 years ago, I love all things SEO and am always working on new strategies to improve rankings. Now I am completed Front End Design and Development Area. I will create your website with SEO in mind and make you look good with my design skills. Let's make something special.</p>
       </div>
     </div>
   );

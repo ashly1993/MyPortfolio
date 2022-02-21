@@ -1,4 +1,4 @@
-@font-face
+/* @font-face
 {
     font-family: 'EurostileBold';
     src: url('../../fonts/EurostileBold.ttf') ;
@@ -20,11 +20,11 @@
   .project_msg_follow textarea{
       height: 100px;
   }
-  label {
+ /*  label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  input[type=submit] {
+  } */
+ /*  input[type=submit] {
     background-color: white;
     color: #EC295B;
     padding: 12px 20px;
@@ -32,17 +32,12 @@
     border-radius: 4px;
     cursor: pointer;
     border :1px solid #EC295B;
-    /* float:right; */
+    
     font-family: 'EurostileBold';
     font-size: 20px;
   }
   .project_row_button{
-      /* align-items: center; */
-      /* width: 33.3333; */
-    /* box-sizing: border-box; */
-    /* clear: both; */
-    /* font-size: 1rem; */
-    /* position: relative; */
+     
     text-align: right;
     
     
@@ -50,20 +45,17 @@
   input[type=submit]:hover {
     background-color: #EC295B;
     color: white;
-  }
+  } */
 
   .project_container {
     border-radius: 5px;
-    /* background-color: #f2f2f2; */
+  
     padding: 20px;
     width: 70%;
     margin: 0 auto;
     
   }
-  /* .contact_container{ 
-    flex: none;
-  }
-/*  */
+  
   .project_center_box{
       margin: 0 auto;
   }
@@ -163,7 +155,7 @@
     line-height: 1.125;
     font-family: 'EurostileBold';
     font-size: 20px;
-    /* word-wrap: break-word; */
+   
   }
 
   select{
@@ -171,10 +163,7 @@
       box-shadow: none;
       font-weight: 300;
   }
-  /* .a h1{ 
-    word-wrap: break-word;
-  }
-  */
+  
 
   #name_error,#email_error,#type_error,#message_error{
     color: #EC295B;
@@ -182,4 +171,4 @@
     font-weight: bold;
     transform: translateY(200%);
     
-  }
+  } 
