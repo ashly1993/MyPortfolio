@@ -8,9 +8,6 @@ import React, { useRef } from 'react';
 
 
 
-
-
-
 const InputContact = () => {
   const [values, setValues] = useState({
     yourname: "",
