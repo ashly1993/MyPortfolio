@@ -2,7 +2,7 @@ import React from 'react';
 import '../Banner/Banner.css';
 import '../Banner/BannerResponsive.css';
 import Profile_Image from '../../images/Asset 2.png';
-import Body_image from '..//..//images/360deg.png';
+
 
 
 function Banner() {
@@ -17,9 +17,7 @@ function Banner() {
       <div className="Profile_Image_Section">
         <img src={Profile_Image} alt="profile_avatar" className='profile_img' />
       </div>
-      <div className="Banner_Body_Image">
-        <img src={Body_image} alt="Body_image" />
-      </div>
+    
     </div>
 
   );

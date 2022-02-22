@@ -6,6 +6,11 @@
     .phone_div {
         width: 45%;
     }
+    .End-Section {
+      
+        vertical-align: top;
+        padding-top: 20px;
+    }
 }
 
 @media (max-width:992px) {

@@ -10,9 +10,7 @@ function Inner_Header() {
       <div className="first_logo_section">
         <img src={InnerLogo} className="innerlogo" alt="innerlogo"/> 
       </div>
-      <div className="center_section">
-
-      </div>
+     
       <div className="end_section">
       <Link to="/"><button className="button_hello" type="button">Back</button></Link> 
       </div>

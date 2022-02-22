@@ -23,12 +23,12 @@ const InputContact = () => {
   const inputs = [
     {
       id: 1,
-      name: "yourname",
+      name: "username",
       type: "text",
-      placeholder: "Name",
-      errorMessage: "name should be 3-16 characters and shouldn't include any special character!",
-      label: "Name",
-      pattern: "^[A-Za-z]++[ ]{3,16}$",
+      placeholder: "Username",
+      errorMessage: "Username should be 3-16 characters and shouldn't include any special character!",
+      label: "Username",
+      pattern: "^[A-Za-z0-9]{3,16}$",
       required: true,
     },
 
@@ -99,9 +99,9 @@ const InputContact = () => {
      .done(function () {
          alert('Your mail is sent!');
      })
-     /* .fail(function (error) {
+      /* .fail(function (error) {
          alert('Oops... ' + JSON.stringify(error));
-     }); 
+     });
  */
 
 
