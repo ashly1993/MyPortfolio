@@ -36,6 +36,7 @@ function Position(props) {
                         <li>{props.list_item4}</li>
                         <li>{props.list_item5}</li>
                         <li>{props.list_item6}</li>
+                        <li>{props.list_item7}</li>
                     </ul>
                 </div>
             </div>

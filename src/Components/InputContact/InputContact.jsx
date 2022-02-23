@@ -10,7 +10,7 @@ import React, { useRef } from 'react';
 
 const InputContact = () => {
   const [values, setValues] = useState({
-    yourname: "",
+    username: "",
     email: "",
     message : "",
   });
@@ -79,9 +79,10 @@ const InputContact = () => {
          }, (error) => {
              console.log(error.text);
          });
+
  };
 
- var data = {
+ /*  var data = {
      service_id: 'service_tvkjw9n',
      template_id: 'template_cwubnvf',
      user_id: 'user_TtLqoMuGAnLMHgvdTzKSN',
@@ -95,12 +96,15 @@ const InputContact = () => {
      })
      .done(function () {
          alert('Your mail is sent!');
-     })
-      /* .fail(function (error) {
+     }) 
+
+
+     
+       .fail(function (error) {
          alert('Oops... ' + JSON.stringify(error));
      });
+ 
  */
-
 
 // *** Email Js Code End Here  //*** 
 

@@ -1,20 +1,17 @@
 .Header_Component{
-    padding-top: 35px;
+    padding-top: 15px;
 }
 .Postion_Component{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-top: 80px;
-    
-   
-    
+        
 }
 .pos_table{
     border-radius: 25px;
     box-shadow: 5px 10px #888888;  
 }
-    
 
 
 .pos_table,td{
@@ -24,7 +21,7 @@
     border-color: gray; 
     
     border-collapse: collapse;
-    width:40%;
+    width:50%;
     margin: 0 auto;
     
 }

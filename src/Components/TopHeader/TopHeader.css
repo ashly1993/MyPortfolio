@@ -3,30 +3,15 @@
 }
 .contact_div{
     width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    text-align: right;
-
-}
-.phone_chimp{
-    
-    width: 25%;
-    display: inline-block;
-    text-align: right;
-    padding-right: 30px;
-}
-.mail_chimp{
-   
-    width: 25%;
-    display: inline-block;
-    text-align: left;
+    text-align: end;
+    padding-top: 30px;
 }
 
 
-.faPhone,.faEnvelope{
+.faEnvelope{
     color: #EC295B;
     font-size: 15px;
+    display: inline-block;
 }
 .contact_div a{
     text-decoration: none;
@@ -34,8 +19,8 @@
    
 }
 .maill{
+    margin-top: 0;
+    margin-bottom: 0;
     display: inline-block;
-}
-.Number{
-    display: inline-block;
+    padding-right: 30px;
 }

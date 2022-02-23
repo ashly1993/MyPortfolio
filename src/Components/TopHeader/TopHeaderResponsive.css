@@ -1,20 +1,5 @@
-
-
-@media (max-width:767px){
-    .contact_div{
-width: 100%;
-text-align: center;
-}
-.phone_chimp{
-    
-    width: auto;
-   
-    text-align: start;
-}
-.mail_chimp{
-   
-    width: auto;
-    
-    text-align: start;
-}
+@media (max-width:767px) {
+    .contact_div{ 
+    text-align: center;
+    }
 }

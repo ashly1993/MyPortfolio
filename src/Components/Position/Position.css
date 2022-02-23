@@ -23,11 +23,11 @@
    
 }
    
-.desc-text{
+/* .desc-text{
     margin: 0 auto;
     width: 50%;
 
-}
+} */
 .tools_title{
     color: #EC295B;
 }
@@ -38,7 +38,7 @@
     padding-top: 15px;
 }
 .tools{
-    padding-top: 15px;
+    
     padding-bottom: 6px;
 }
 .tools_desc{
@@ -48,11 +48,12 @@
  .description{ 
     padding-top: 6px;
     overflow: hidden;
-    max-height: 190px;
-    min-height: 180px;
+    max-height: 200px;
+    min-height: 161px;
 
     
 } 
+.sub_dec{
+min-height: 75px;
 
-
-
+}

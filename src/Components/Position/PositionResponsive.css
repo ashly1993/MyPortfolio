@@ -1,17 +1,20 @@
 @media (max-width:1024px) 
 {
-    .pos_table td{
-        width: 48%;
-    }   
+     .pos_table td{
+        width: 50%;
+    }    
 
     .description{ 
-    min-height: 177px; 
+    min-height: 170px; 
     }
     .title{
         font-size: 17px;
     }
     .desc-text {
         width: auto;
+    }
+    .sub_dec {
+        min-height: 107px;
     }
 }
 
@@ -26,52 +29,55 @@
             padding-top: 50px;
             padding-bottom: 50px;
         }
+        .desc-text {
+            min-height: 100px;
+        }
 
     }
 
     @media (max-width:767px) 
 {
     .desc-text {
-         width: 100%;
+         font-size: 10px;
+         width: auto;
          min-height: 145px;
-         font-size: 12px;
+         
     }
     .title {   
-        width: 100%;
+        width: auto;
         font-size: 14px;
     }
-    .sub_dec_name { 
-        width: 100%;   
-    }
+    
     .sub_dec{
-        width: 100%;
-        font-size: 12px;
+        width: auto;
+        font-size: 10px;
     }
     .tools_title {
-        width: 100%;
-        font-size: 14px;
+        width: auto;
+        font-size: 11px;
     }
     .tools_desc {
-        width: 100%;
-        font-size: 12px;
+        width: auto;
+        font-size: 10px;
     }
     
     .description {
-        width: 94%;
-        min-height: 130px;
+        width: auto;
+        min-height: 100px;
         max-height: 100px;
     }
     .Position_Section {   
-        width: 100%;
+        width: auto;
     }
     .sub_section {  
-        width: 100%;
+        width: auto;
+        padding-top: 0;
+        max-height: 100px;
+ 
     }
-    .sub_dec { 
-        font-size: 14px;
-    }
+   
     .sub_dec_name {
-        font-size: 14px;
+        font-size: 11px;
     }
     .pos_table {
         width: 90% !important;
