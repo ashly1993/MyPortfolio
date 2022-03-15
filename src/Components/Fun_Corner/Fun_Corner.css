@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+.project_view1{
+    width: 20%;
+    border-color: black;
+    border-style: solid;
+    background-color: #000022;
+}
+.space_man_prevw{
+    width: 200px;
+    height: 200px;
+}

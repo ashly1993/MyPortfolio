@@ -1,0 +1,17 @@
+
+.Fun_Section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EC295B;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.fun_btn{
+    border-radius: 25px;
+    padding: 10px 24px;
+    color: #EC295B;
+    background-color: white;
+    font-size: 20px;
+    border :1px solid #EC295B;
+}

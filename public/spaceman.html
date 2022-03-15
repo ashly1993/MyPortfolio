@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Man Test Run</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mars_section">
+        <div class="title_section" style="width: 100%; text-align: center;">
+            <h1 class="h1_tag">Space Man</h1>
+        </div>
+        <div class="mario_div">
+            <img id="mario" src="../src/images/spaceman1.png" alt="spaceman" style="width: 200px; height: 200px; position: fixed;">
+        </div>
+
+
+        <div class="info_section">
+            <div class="info_btn">
+                <button id="btn_info">&#8505;</button>
+            </div>
+            <div id="myDIV">
+                Space man is a space explorer; who started journey to a newly discovered planet with most advanced space suited and his buddy Bobbie.
+
+                Traveling through space is a difficult. Controlling suit and avoiding debris in space is tedious task.
+                
+                Would you help him to navigate around safely?
+                
+                Use game pad on botton right corner or arrow keys in keyboard to give him instructions.
+                <h3>To Do</h3>
+                 <ul>
+                     <li>moving object across the Space</li>
+                     <li>collison Test</li>
+                 </ul>
+                </div>
+        </div>
+        <div class="game_pad">
+            <div class="button_up">
+                <button id="btn_up">&#8593;</button>
+            </div>
+    <div class="button_center">
+                <div class="button_left">
+                    <button id="btn_left">&#8592;</button>
+                </div>
+                <div class="button_right">
+                    <button id="btn_right">&#8594;</button>
+                </div>
+            </div> 
+    <div class="bottom">
+        <button id="btn_down" >&#8595;</button>
+    </div>
+  </div>
+
+ 
+    </div>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./custom.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+  $("#btn_info").click(function(){
+    $("#myDIV").fadeToggle(1000);
+  });
+});
+  </script>
+</body>
+</html>
