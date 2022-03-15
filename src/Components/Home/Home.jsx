@@ -32,9 +32,9 @@ function Home() {
                 </tr>
                 </table>
             </div>
-            <div className="Fun_Component">
+            {/* <div className="Fun_Component">
                 <Fun_Section />
-            </div>
+            </div> */}
             <div className="Footer_Component">
                 <Footer />
             </div>
